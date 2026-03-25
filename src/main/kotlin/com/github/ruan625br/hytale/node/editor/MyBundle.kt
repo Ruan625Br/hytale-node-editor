@@ -1,4 +1,4 @@
-package com.github.ruan625br.hytalenodeeditor
+package com.github.ruan625br.hytale.node.editor
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

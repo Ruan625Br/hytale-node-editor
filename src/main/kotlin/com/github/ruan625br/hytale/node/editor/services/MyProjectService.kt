@@ -1,9 +1,9 @@
-package com.github.ruan625br.hytalenodeeditor.services
+package com.github.ruan625br.hytale.node.editor.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.ruan625br.hytalenodeeditor.MyBundle
+import com.github.ruan625br.hytale.node.editor.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

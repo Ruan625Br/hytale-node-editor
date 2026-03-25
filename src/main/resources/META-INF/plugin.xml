@@ -9,7 +9,17 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.ruan625br.hytalenodeeditor.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.ruan625br.hytalenodeeditor.startup.MyProjectActivity" />
+        <toolWindow factoryClass="com.github.ruan625br.hytale.node.editor.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="com.github.ruan625br.hytale.node.editor.startup.MyProjectActivity" />
+
+        <fileEditorProvider implementation="com.github.ruan625br.hytale.node.editor.provider.GraphEditorProvider" />
+
+
+        <fileType
+                name="Hytale Graph"
+                implementationClass="com.github.ruan625br.hytale.node.editor.file.HytaleGraphFileType"
+                language="HytaleGraph"
+                fieldName="INSTANCE"
+                extensions="hgraph" />
     </extensions>
 </idea-plugin>

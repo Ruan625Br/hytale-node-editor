@@ -1,4 +1,4 @@
-package com.github.ruan625br.hytalenodeeditor.startup
+package com.github.ruan625br.hytale.node.editor.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project

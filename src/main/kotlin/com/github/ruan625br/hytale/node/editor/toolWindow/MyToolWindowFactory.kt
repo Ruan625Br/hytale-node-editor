@@ -1,4 +1,4 @@
-package com.github.ruan625br.hytalenodeeditor.toolWindow
+package com.github.ruan625br.hytale.node.editor.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.ruan625br.hytalenodeeditor.MyBundle
-import com.github.ruan625br.hytalenodeeditor.services.MyProjectService
+import com.github.ruan625br.hytale.node.editor.MyBundle
+import com.github.ruan625br.hytale.node.editor.services.MyProjectService
 import javax.swing.JButton
 
 
